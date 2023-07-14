@@ -1,3 +1,8 @@
+""" Functions for embedding the text in a dataset. 
+
+Tokenization 
+"""
+
 from torch.utils.data import Dataset
 
 
