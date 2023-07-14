@@ -6,10 +6,6 @@ Tokenization
 from torch.utils.data import Dataset
 
 
-def test_func():
-    print("Hello world!")
-
-
 class TokenizedC4Dataset(Dataset):
     """
     A dataset that tokenizes the text in a dataset.
