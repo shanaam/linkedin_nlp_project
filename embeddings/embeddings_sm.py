@@ -5,12 +5,12 @@ def embed_sm(dataset):
     Parameters:
         dataset (dataset): A dataset of strings and labels. Each string is a sentence or phrase.
     """
-    result = []
+    result = dataset
 
     return result
 
 
-class TokenizedC4Dataset(Dataset):
+class TokenizedC4Dataset:
     """
     A dataset that tokenizes the text in a dataset.
     """
