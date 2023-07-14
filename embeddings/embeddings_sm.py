@@ -1,8 +1,3 @@
-"""
-Embedding models for a dataset of text.
-"""
-
-
 def embed_sm(dataset):
     """
     Embeds the text in a dataset using a simple embedding model.
@@ -15,7 +10,6 @@ def embed_sm(dataset):
     return result
 
 
-# class to tokenize the dataset
 class TokenizedC4Dataset(Dataset):
     """
     A dataset that tokenizes the text in a dataset.
