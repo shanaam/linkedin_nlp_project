@@ -1,7 +1,6 @@
 """
 Embedding models for a dataset of text.
 """
-from torch.utils.data import Dataset
 
 
 def embed_sm(dataset):
