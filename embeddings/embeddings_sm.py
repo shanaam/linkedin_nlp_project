@@ -22,6 +22,9 @@ class TokenizedC4Dataset(Dataset):
         text = self.encoding.encode(text)
         return text, label
 
+    def __len__(self):
+        return len(self.dataset)
+
     def preprocess_toktext_custom(self, text):
         """
         Preprocess the tokenized text for non-rnn models.
