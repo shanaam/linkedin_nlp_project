@@ -1,16 +1,7 @@
-def embed_sm(dataset):
-    """
-    Embeds the text in a dataset using a simple embedding model.
-    
-    Parameters:
-        dataset (dataset): A dataset of strings and labels. Each string is a sentence or phrase.
-    """
-    result = dataset
-
-    return result
+from torch.utils.data import Dataset
 
 
-class TokenizedC4Dataset:
+class TokenizedC4Dataset(Dataset):
     """
     A dataset that tokenizes the text in a dataset.
     """
